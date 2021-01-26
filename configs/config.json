@@ -1,0 +1,14 @@
+{
+    "model_config":{
+        "n_class":2,
+        "use_pretrained":false, 
+        "feature_extract":false
+        },
+
+    "mask_classification_model_path": "weights/model.pt",
+    "facenet_prototxt_path":"artifacts/deploy.prototxt",
+    "facenet_weight_path":"artifacts/res10_300x300_ssd_iter_140000.caffemodel",
+    "face_detection_confidence_threshold": 0.4,
+    "input_size":32
+}
+
