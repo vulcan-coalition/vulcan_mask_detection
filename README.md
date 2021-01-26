@@ -24,13 +24,13 @@ To use API using Python, install `requests` package.
 
 `pip install requests`
 
-In Python file: 
+The API can be request from https://api.lab.ai/mask-detection. In Python file: 
 
 ```python 
 
  import requests
 
- response = requests.request('POST',url, files={'file':open(image_file, 'rb')})
+ response = requests.request('POST', "https://api.lab.ai/mask-detection" , files={'file':open(image_file, 'rb')})
  content = json.loads(response.content.decode('utf-8'))
 
 ```
