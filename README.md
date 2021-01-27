@@ -20,11 +20,11 @@ The mask classification model's weights and the Open-CV face detection model and
 
 ## API Document
 
-To use API using Python, install `requests` package.
+To use API using Python, package `requests` is required.
 
 `pip install requests`
 
-The API can be request from https://api.lab.ai/mask-detection. In Python file: 
+The API can be request from https://api.lab.ai/mask-detection using the POST method. 
 
 ```python 
 
